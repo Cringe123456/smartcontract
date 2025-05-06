@@ -1,4 +1,4 @@
-module jelo_coin::jelo;
+module snout_coin::snout;
 
 use sui::coin::{Self, TreasuryCap};
 use sui::balance::{Balance};
@@ -9,7 +9,7 @@ const EInvalidAmount: u64 = 0;
 const ESupplyExceeded: u64 = 1;
 const ETokenLocked: u64 = 2;
 
-public struct JELO has drop {}
+public struct snout has drop {}
 
 public struct MintCapability has key {
     id: UID,
@@ -126,19 +126,19 @@ fun test_init() {
 
     let mut scenario = test_scenario::begin(publisher);
     {
-        let otw = JELO{};
+        let otw = snout{};
         init(otw, scenario.ctx());
     };
 
     scenario.next_tx(publisher);
     {
         let mint_cap = scenario.take_from_sender<MintCapability>();
-        let jelo_coin = scenario.take_from_sender<coin::Coin<JELO>>();
+        let snout_coin = scenario.take_from_sender<coin::Coin<JELO>>();
 
         assert!(mint_cap.total_minted == INITIAL_SUPPLY, EInvalidAmount);
-        assert!(jelo_coin.balance().value() == INITIAL_SUPPLY, EInvalidAmount);
+        assert!(snout_coin.balance().value() == INITIAL_SUPPLY, EInvalidAmount);
 
-        scenario.return_to_sender(jelo_coin);
+        scenario.return_to_sender(snout_coin);
         scenario.return_to_sender(mint_cap);
     };
 
@@ -168,7 +168,7 @@ fun test_lock_tokens() {
 
     let mut scenario = test_scenario::begin(publisher);
     {
-        let otw = JELO{};
+        let otw = snout{};
         init(otw, scenario.ctx());
     };
 
@@ -290,7 +290,7 @@ fun test_withdraw_locked_before_unlock() {
 
     let mut scenario = test_scenario::begin(publisher);
     {
-        let otw = JELO{};
+        let otw = snout{};
         init(otw, scenario.ctx());
     };
 
