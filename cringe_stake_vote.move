@@ -1,4 +1,4 @@
-module 0xYourAddress::cringe_stake_vote {
+module 0x1b2afab3bb2ee1f837a8dd7ab13ff8d2c77f446d0dc80ce8b43fb4c9c213b8bc::cringe_stake_vote {
 
     use sui::object::UID;
     use sui::tx_context::{Self, TxContext};
