@@ -13,7 +13,7 @@ public struct snout has drop {}
 
 public struct MintCapability has key {
     id: UID,
-    treasury: TreasuryCap<JELO>,
+    treasury: TreasuryCap<SNOUT>,
     total_minted: u64,
 }
 
