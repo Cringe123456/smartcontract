@@ -1,8 +1,7 @@
-0x1b2afab3bb2ee1f837a8dd7ab13ff8d2c77f446d0dc80ce8b43fb4c9c213b8bc
-https://suiscan.xyz/testnet/account/0x1b2afab3bb2ee1f837a8dd7ab13ff8d2c77f446d0dc80ce8b43fb4c9c213b8bc
+https://suiscan.xyz/testnet/object/0x2a250854a06b483889f6c09d2ef0fe6b29162e21fedaa273638cfc39512c0df1/
 
 Successfully published package:
-Package ID: 0x1b2afab3bb2ee1f837a8dd7ab13ff8d2c77f446d0dc80ce8b43fb4c9c213b8bc
+Package ID: 0x2a250854a06b483889f6c09d2ef0fe6b29162e21fedaa273638cfc39512c0df1
 
 
 
