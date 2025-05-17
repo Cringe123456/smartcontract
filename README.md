@@ -1,6 +1,12 @@
 0x1b2afab3bb2ee1f837a8dd7ab13ff8d2c77f446d0dc80ce8b43fb4c9c213b8bc
 https://suiscan.xyz/testnet/account/0x1b2afab3bb2ee1f837a8dd7ab13ff8d2c77f446d0dc80ce8b43fb4c9c213b8bc
 
+Successfully published package:
+Package ID: 0x1b2afab3bb2ee1f837a8dd7ab13ff8d2c77f446d0dc80ce8b43fb4c9c213b8bc
+
+
+
+
 # Cringe Stake-to-Vote Smart Contract (Sui Move)
 
 Cringe is a memecoin short-content platform where users vote on content using **$SNOUT** tokens. This smart contract allows users to **stake to vote**, increasing the weight of their opinion with the amount of SNOUT they commit.
