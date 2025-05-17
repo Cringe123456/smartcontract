@@ -20,7 +20,7 @@ public struct MintCapability has key {
 public struct Locker has key, store {
     id: UID,
     unlock_date: u64,
-    balance: Balance<JELO>,
+    balance: Balance<SNOUT>,
 }
 
 const TOTAL_SUPPLY: u64 = 1_000_000_000_000_000_000;
