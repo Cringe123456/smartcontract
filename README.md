@@ -3,7 +3,13 @@ https://suiscan.xyz/testnet/object/0x2a250854a06b483889f6c09d2ef0fe6b29162e21fed
 Successfully published package:
 Package ID: 0x2a250854a06b483889f6c09d2ef0fe6b29162e21fedaa273638cfc39512c0df1
 
-
+Deployment Summary:
+-------------------
+Token Name: SNOUT Token
+Token Symbol: SNT
+Token Decimals: 18
+Total Supply: 1000000000000000000000000 (raw units)
+Token Owner: 0x4f59bec0f58ec3f3bf4f9ba2d877d11d695ceacda5c65109f575bd2d7909d53a
 
 
 # Cringe Stake-to-Vote Smart Contract (Sui Move)
