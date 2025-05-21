@@ -104,7 +104,7 @@ fun mint_internal(
     mint_cap: &mut MintCapability,
     amount: u64,
     ctx: &mut TxContext
-): coin::Coin<JELO> {
+): coin::Coin<snout> {
     assert!(amount > 0, EInvalidAmount);
     assert!(mint_cap.total_minted + amount <= TOTAL_SUPPLY, ESupplyExceeded);
 
