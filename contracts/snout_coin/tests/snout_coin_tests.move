@@ -12,7 +12,7 @@ fun test_snout_coin() {
 }
 
 #[test, expected_failure(abort_code = ::snout_coin::snout_coin_tests::ENotImplemented)]
-fun test_jelo_coin_fail() {
+fun test_snout_coin_fail() {
     abort ENotImplemented
 }
 */
